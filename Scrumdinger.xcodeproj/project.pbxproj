@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA82B34226B30DBE004427FC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA82B34126B30DBE004427FC /* CardView.swift */; };
 		FACC95E326AD323D0092DBD3 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC95E226AD323D0092DBD3 /* ScrumdingerApp.swift */; };
 		FACC95E526AD323D0092DBD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC95E426AD323D0092DBD3 /* ContentView.swift */; };
 		FACC95E726AD323F0092DBD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACC95E626AD323F0092DBD3 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA82B34126B30DBE004427FC /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		FACC95DF26AD323D0092DBD3 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACC95E226AD323D0092DBD3 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		FACC95E426AD323D0092DBD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,8 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				FACC95E226AD323D0092DBD3 /* ScrumdingerApp.swift */,
-				FACC95E426AD323D0092DBD3 /* ContentView.swift */,
 				FADB6DC126B04D0E00DAFF80 /* DailyScrum.swift */,
+				FACC95E426AD323D0092DBD3 /* ContentView.swift */,
+				FA82B34126B30DBE004427FC /* CardView.swift */,
 				FACC95E626AD323F0092DBD3 /* Assets.xcassets */,
 				FACC95E826AD323F0092DBD3 /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				FACC95E526AD323D0092DBD3 /* ContentView.swift in Sources */,
 				FADB6DC226B04D0E00DAFF80 /* DailyScrum.swift in Sources */,
+				FA82B34226B30DBE004427FC /* CardView.swift in Sources */,
 				FACC95E326AD323D0092DBD3 /* ScrumdingerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
