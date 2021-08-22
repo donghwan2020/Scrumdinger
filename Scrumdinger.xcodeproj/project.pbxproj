@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA616E2326D213D600A76717 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA616E2226D213D600A76717 /* EditView.swift */; };
 		FA66CC7026B84DF30095CEF0 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66CC6F26B84DF30095CEF0 /* Color+Codable.swift */; };
 		FA66CC7226B8500C0095CEF0 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA66CC7126B8500C0095CEF0 /* ScrumsView.swift */; };
 		FA69419B26D0DD86004EF8D4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA69419A26D0DD86004EF8D4 /* DetailView.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA616E2226D213D600A76717 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		FA66CC6F26B84DF30095CEF0 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		FA66CC7126B8500C0095CEF0 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		FA69419A26D0DD86004EF8D4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				FA69419C26D12C3A004EF8D4 /* MeetingView.swift */,
 				FA66CC7126B8500C0095CEF0 /* ScrumsView.swift */,
 				FA69419A26D0DD86004EF8D4 /* DetailView.swift */,
+				FA616E2226D213D600A76717 /* EditView.swift */,
 				FACC95E626AD323F0092DBD3 /* Assets.xcassets */,
 				FACC95E826AD323F0092DBD3 /* Preview Content */,
 			);
@@ -279,6 +282,7 @@
 			files = (
 				FA69419D26D12C3A004EF8D4 /* MeetingView.swift in Sources */,
 				FA66CC7226B8500C0095CEF0 /* ScrumsView.swift in Sources */,
+				FA616E2326D213D600A76717 /* EditView.swift in Sources */,
 				FADB6DC226B04D0E00DAFF80 /* DailyScrum.swift in Sources */,
 				FA69419B26D0DD86004EF8D4 /* DetailView.swift in Sources */,
 				FA82B34226B30DBE004427FC /* CardView.swift in Sources */,
