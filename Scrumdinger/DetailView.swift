@@ -1,7 +1,9 @@
 import SwiftUI
 
 struct DetailView: View {
-    let scrum: DailyScrum
+    @Binding var scrum: DailyScrum
+    //SSOT for binding to EditView
+    @State private var data: DailyScrum.Data = DailyScrum.Data()
     @State private var isPresented = false
     var body: some View {
         List {
@@ -38,16 +40,19 @@ struct DetailView: View {
         .listStyle(InsetGroupedListStyle())
         .navigationBarItems(trailing: Button("Edit") {
             isPresented = true
+            //To match the selected scrum when the user taps the Edit button
+            data = scrum.data
         })
         .navigationTitle(scrum.title)
         .fullScreenCover(isPresented: $isPresented) {
             NavigationView {
-                EditView()
+                EditView(scrumData: $data)
                     .navigationTitle(scrum.title)
                     .navigationBarItems(leading: Button("Cancel") {
                         isPresented = false
                     }, trailing: Button("Done") {
                         isPresented = false
+                        scrum.update(from: data)
                     })
             }
         }
@@ -57,7 +62,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            DetailView(scrum: DailyScrum.data[0])
+            DetailView(scrum: .constant(DailyScrum.data[0]))
         }
     }
 }
