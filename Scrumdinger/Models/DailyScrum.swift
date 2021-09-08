@@ -26,6 +26,7 @@ extension DailyScrum {
     }
 }
 
+//Editable property
 extension DailyScrum {
     struct Data {
         var title: String = ""
@@ -34,6 +35,7 @@ extension DailyScrum {
         var color: Color = .random
     }
     
+    //Computed data property
     var data: Data {
         return Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), color: color)
     }
